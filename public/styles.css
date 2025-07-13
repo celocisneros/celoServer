@@ -21,3 +21,7 @@ background-color: black;
     top: 40%;
     left: 30%;
 }
+#healthElement {
+    display: flex;
+    flex-direction: row;
+}
