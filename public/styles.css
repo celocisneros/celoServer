@@ -26,7 +26,8 @@ nav {
     padding: 10px;
 }
 nav button {
-    color: darkcyan;
+    color: cyan;
     background-color: black;
     border: solid 2px black;
+    font-size: 2em;
 }
