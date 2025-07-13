@@ -1,11 +1,11 @@
 body {
 color: white;
-background-color: cyan;
+background-color: black;
 }
 #playerBox{
     width: 200px;
     height: 200px;
-    background-color: red;
+    background-color: cyan;
     color: white;
     font-size: 24px;
     position: absolute;
@@ -15,9 +15,9 @@ background-color: cyan;
 #battleBox {
     width: 700px;
     height: 300px;
-    background-color: grey;
+    background-color: darkcyan;
     position: absolute;
     color: white;
     top: 40%;
-    left: 25%;
+    left: 30%;
 }
