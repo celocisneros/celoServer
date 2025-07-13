@@ -18,3 +18,9 @@ background-color: black;
     display: flex;
     flex-direction: row;
 }
+nav {
+    border: solid 2px darkcyan;
+    color: darkcyan;
+    position: absolute;
+    width: fit-content;
+}
