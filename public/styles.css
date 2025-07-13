@@ -20,7 +20,8 @@ background-color: black;
 }
 nav {
     border: solid 2px darkcyan;
-    color: darkcyan;
     position: absolute;
     width: fit-content;
+    background-color: black;
+    padding: 10px;
 }
