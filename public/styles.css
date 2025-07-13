@@ -3,8 +3,8 @@ color: white;
 background-color: black;
 }
 #playerBox{
-    width: 200px;
-    height: 200px;
+    width: fit-content;
+    height: fit-content;
     background-color: black;
     color: cyan;
     font-size: 24px;
@@ -12,6 +12,7 @@ background-color: black;
     top: 20%;
     left: 10%;
     border: solid 2px cyan;
+    padding: 10px;
 }
 #battleBox {
     width: 700px;
