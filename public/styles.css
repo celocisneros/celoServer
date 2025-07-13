@@ -25,3 +25,7 @@ nav {
     background-color: black;
     padding: 10px;
 }
+nav button {
+    color: darkcyan;
+    background-color: black;
+}
