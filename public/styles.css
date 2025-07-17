@@ -8,28 +8,31 @@ body {
 }
 
 #title {
-    background-color: grey;
+    background-color: darkcyan;
     padding: 20px;
     border: solid 2px white;
     width: fit-content;
     font-style: italic;
     color: cyan;
+    border-radius: 60px;
 }
 
 #controls{
-    background-color: grey;
+    background-color: darkcyan;
     padding: 20px;
     border: solid 2px cyan;
     width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 60px;
 }
 
 #controls button{
     background-color: cyan;
     color: white;
     border: solid 1px white;
+    border-radius: 60px;
 }
 
 #centerContainer {
