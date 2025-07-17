@@ -8,6 +8,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Default route
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    res.send('the backend is live and running');
 });
 
 // Listen on port 3000
