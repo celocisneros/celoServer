@@ -1,0 +1,13 @@
+#title {
+    background-color: deepskyblue;
+    padding: 20px;
+    border: solid 2px black;
+}
+body {
+    background-color: darkseagreen;
+}
+#controls{
+    background-color: aquamarine;
+    padding: 20px;
+    border: solid 2px black;
+}
