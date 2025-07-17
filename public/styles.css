@@ -3,16 +3,19 @@
     padding: 20px;
     border: solid 2px black;
     width: fit-content;
+    position: absolute;
+    top: 10%;
+    left: 35%;
 }
 body {
     background-color: darkseagreen;
-    align-items: center;
-    align-content: center;
-    text-align: center;
 }
 #controls{
     background-color: aquamarine;
     padding: 20px;
     border: solid 2px black;
     width: fit-content;
+    position: absolute;
+    top: 40%;
+    left: 35%;
 }
