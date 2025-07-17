@@ -1,9 +1,3 @@
-#title {
-    background-color: deepskyblue;
-    padding: 20px;
-    border: solid 2px black;
-    width: fit-content;
-}
 body {
     background-color: darkseagreen;
     margin: 0;
@@ -12,6 +6,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+#title {
+    background-color: deepskyblue;
+    padding: 20px;
+    border: solid 2px black;
+    width: fit-content;
+    font-style: italic;
+}
+
 #controls{
     background-color: aquamarine;
     padding: 20px;
@@ -21,6 +24,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 #centerContainer {
   display: flex;
   flex-direction: column;
