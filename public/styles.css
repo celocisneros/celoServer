@@ -8,6 +8,7 @@ body {
     background-color: darkseagreen;
     align-items: center;
     align-content: center;
+    text-align: center;
 }
 #controls{
     background-color: aquamarine;
