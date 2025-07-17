@@ -18,3 +18,8 @@ body {
     border: solid 2px black;
     width: fit-content;
 }
+#centerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between the two boxes */
+}
