@@ -17,6 +17,9 @@ body {
     padding: 20px;
     border: solid 2px black;
     width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #centerContainer {
   display: flex;
