@@ -6,6 +6,8 @@
 }
 body {
     background-color: darkseagreen;
+    align-items: center;
+    align-content: center;
 }
 #controls{
     background-color: aquamarine;
