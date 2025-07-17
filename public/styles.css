@@ -3,19 +3,18 @@
     padding: 20px;
     border: solid 2px black;
     width: fit-content;
-    position: absolute;
-    top: 10%;
-    left: 35%;
 }
 body {
     background-color: darkseagreen;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #controls{
     background-color: aquamarine;
     padding: 20px;
     border: solid 2px black;
     width: fit-content;
-    position: absolute;
-    top: 40%;
-    left: 35%;
 }
