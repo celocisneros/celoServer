@@ -1,5 +1,5 @@
 body {
-    background-color: darkseagreen;
+    background-color: black;
     margin: 0;
     height: 80vh;
     display: flex;
@@ -8,21 +8,28 @@ body {
 }
 
 #title {
-    background-color: deepskyblue;
+    background-color: grey;
     padding: 20px;
-    border: solid 2px black;
+    border: solid 2px white;
     width: fit-content;
     font-style: italic;
+    color: cyan;
 }
 
 #controls{
-    background-color: aquamarine;
+    background-color: grey;
     padding: 20px;
-    border: solid 2px black;
+    border: solid 2px cyan;
     width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#controls button{
+    background-color: cyan;
+    color: white;
+    border: solid 1px white;
 }
 
 #centerContainer {
