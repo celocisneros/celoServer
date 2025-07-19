@@ -19,7 +19,7 @@ body {
 
 #controls{
     background-color: black;
-    padding: 80px;
+    padding: 60px;
     border: solid 3px cyan;
     width: fit-content;
     display: flex;
