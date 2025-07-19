@@ -10,7 +10,7 @@ body {
 
 #title {
     background-color: darkcyan;
-    padding: 20px;
+    padding: 40px;
     border: solid 2px white;
     width: fit-content;
     font-style: italic;
@@ -20,7 +20,7 @@ body {
 
 #controls{
     background-color: darkcyan;
-    padding: 20px;
+    padding: 40px;
     border: solid 2px cyan;
     width: fit-content;
     display: flex;
@@ -34,6 +34,7 @@ body {
     color: white;
     border: solid 1px white;
     border-radius: 60px;
+    padding: 10px;
 }
 
 #centerContainer {
