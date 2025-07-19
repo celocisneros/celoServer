@@ -11,29 +11,29 @@ body {
 #title {
     background-color: black;
     padding: 40px;
-    border: solid 2px cyan;
+    border: solid 3px cyan;
     width: fit-content;
     font-style: italic;
     color: white;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 #controls{
     background-color: black;
     padding: 80px;
-    border: solid 2px cyan;
+    border: solid 3px cyan;
     width: fit-content;
     display: flex;
     align-items: center;
-    border-radius: 60px;
+    border-radius: 10px;
     flex-direction: column;
 }
 
 #controls button{
     background-color: black;
     color: cyan;
-    border: solid 2px cyan;
-    border-radius: 20px;
+    border: solid 3px cyan;
+    border-radius: 10px;
     padding: 10px;
 }
 
@@ -47,7 +47,7 @@ body {
     width: 200px;
     height: 100px;
     color: cyan;
-    border: solid 2px cyan;
+    border: solid 3px cyan;
     padding: 20px;
     margin-top: 20px;
 }
