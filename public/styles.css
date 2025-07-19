@@ -30,7 +30,7 @@ body {
 }
 
 #controls button{
-    background-color: cyan;
+    background-color: black;
     color: white;
     border: solid 1px white;
     border-radius: 60px;
@@ -46,5 +46,5 @@ body {
     width: 300px;
     height: 200px;
     border: solid 2px cyan;
-    color: cornflowerblue;
+    color: black;
 }
