@@ -5,7 +5,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 
 #title {
@@ -30,8 +29,8 @@ body {
 }
 
 #controls button{
-    background-color: black;
-    color: cyan;
+    background-color: skyblue;
+    color: black;
     border: solid 3px cyan;
     border-radius: 10px;
     padding: 10px;
