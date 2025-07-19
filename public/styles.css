@@ -45,6 +45,6 @@ body {
     background-color: cyan;
     width: 200px;
     height: 100px;
-    color: white;
-    border: solid 5px darkcyan;
+    color: yellow;
+    border: solid 2px darkcyan;
 }
