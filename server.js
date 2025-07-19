@@ -12,9 +12,9 @@ app.get('/', (req, res) => {
 
 // app.get, the route, the callback function, the data
 
-app.get('http://52.186.84.191:3000/api/message', (req, res) => {
+app.get('/api/message', (req, res) => {
     console.log('✅ GET /api/message was called');
-    res.json({ message: 'hello from the backend'});
+    res.json({ message: 'hello from the backend' });
 });
 
 
