@@ -1,5 +1,3 @@
-const { response } = require("express");
-
 function message(){
     fetch('/api/message') //calls the backend route
     .then(response => response.json())
