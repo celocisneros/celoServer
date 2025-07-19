@@ -8,12 +8,12 @@ body {
 }
 
 #title {
-    background-color: skyblue;
+    background-color: black;
     padding: 40px;
     border: solid 3px cyan;
     width: fit-content;
     font-style: italic;
-    color: white;
+    color: aquamarine;
     border-radius: 10px;
 }
 
