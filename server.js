@@ -10,12 +10,12 @@ app.get('/api/message', (req, res) => {
 });
 
 // Serve static files from "public" folder
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.static(path.join(__dirname, 'public')));
 
 // Default route
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
+//app.get('/', (req, res) => {
+   // res.sendFile(path.join(__dirname, 'public', 'index.html'));
+//});
 
 
 const PORT = 3000;
