@@ -9,7 +9,7 @@ body {
 }
 
 #title {
-    background-color: black;
+    background-color: skyblue;
     padding: 40px;
     border: solid 3px cyan;
     width: fit-content;
@@ -19,7 +19,7 @@ body {
 }
 
 #controls{
-    background-color: black;
+    background-color: skyblue;
     padding: 80px;
     border: solid 3px cyan;
     width: fit-content;
