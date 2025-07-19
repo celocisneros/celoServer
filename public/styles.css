@@ -43,8 +43,8 @@ body {
 }
 #serverBox {
     background-color: white;
-    width: 300px;
-    height: 200px;
-    border: solid 2px cyan;
+    width: 200px;
+    height: 100px;
+    border: solid 5px cyan;
     color: black;
 }
