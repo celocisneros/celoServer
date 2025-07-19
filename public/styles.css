@@ -24,7 +24,6 @@ body {
     border: solid 2px cyan;
     width: fit-content;
     display: flex;
-    justify-content: center;
     align-items: center;
     border-radius: 60px;
     flex-direction: column;
