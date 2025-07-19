@@ -33,7 +33,7 @@ body {
     background-color: black;
     color: cyan;
     border: solid 2px cyan;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 10px;
 }
 
@@ -49,6 +49,7 @@ body {
     color: cyan;
     border: solid 2px darkcyan;
     padding: 20px;
+    margin-top: 20px;
 }
 #controlTitle{
     position: relative;
