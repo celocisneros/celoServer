@@ -9,18 +9,18 @@ body {
 }
 
 #title {
-    background-color: darkcyan;
+    background-color: black;
     padding: 40px;
-    border: solid 2px white;
+    border: solid 2px cyan;
     width: fit-content;
     font-style: italic;
     color: white;
-    border-radius: 60px;
+    border-radius: 20px;
 }
 
 #controls{
     background-color: black;
-    padding: 100px;
+    padding: 80px;
     border: solid 2px cyan;
     width: fit-content;
     display: flex;
