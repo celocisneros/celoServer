@@ -42,9 +42,9 @@ body {
   gap: 20px; /* Space between the two boxes */
 }
 #serverBox {
-    background-color: white;
+    background-color: cyan;
     width: 200px;
     height: 100px;
-    border: solid 5px cyan;
-    color: black;
+    color: white;
+    border: solid 5px darkcyan;
 }
