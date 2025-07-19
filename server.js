@@ -2,17 +2,16 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
+// ✅ Serve static files first
+app.use(express.static(path.join(__dirname, 'public')));
 
-// ✅ API route FIRST
+// ✅ API route
 app.get('/api/message', (req, res) => {
-  console.log('GET /api/message route hit');
+  console.log('GET /api/message hit');
   res.json({ message: 'hello from the backend' });
 });
 
-// ✅ Static files SECOND
-app.use(express.static(path.join(__dirname, 'public')));
-
-// ✅ Default route LAST (optional fallback)
+// ✅ Default route (if someone visits '/')
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
