@@ -4,4 +4,8 @@ function message(){
     .then(data => {
         document.getElementById('serverBox').textContent = data.message;
     })
-};
+ .catch(err => {
+      document.getElementById('output').textContent = 'Error getting message.';
+      console.error('Fetch error:', err);
+    });
+}
