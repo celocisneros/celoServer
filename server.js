@@ -9,8 +9,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
+
 // app.get, the route, the callback function, the data
-app.get('/api/message', (req, res) => {
+
+app.get('http://52.186.84.191:3000/api/message', (req, res) => {
     res.json({ message: 'hello from the backend'});
 });
 
