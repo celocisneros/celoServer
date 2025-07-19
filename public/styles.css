@@ -20,7 +20,7 @@ body {
 
 #controls{
     background-color: black;
-    padding: 40px;
+    padding: 100px;
     border: solid 2px cyan;
     width: fit-content;
     display: flex;
