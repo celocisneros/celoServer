@@ -20,6 +20,6 @@ app.get('http://52.186.84.191:3000/api/message', (req, res) => {
 
 // Listen on port 3000
 const PORT = 3000;
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server running on http://<your-public-ip>:${PORT}`);
 });
