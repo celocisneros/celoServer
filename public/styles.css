@@ -8,17 +8,17 @@ body {
 }
 
 #title {
-    background-color: black;
+    background-color: #50c878;
     padding: 40px;
     border: solid 3px cyan;
     width: fit-content;
     font-style: italic;
-    color: aquamarine;
+    color: #50c878;
     border-radius: 10px;
 }
 
 #controls{
-    background-color: black;
+    background-color: #50c878;
     padding: 60px;
     border: solid 3px cyan;
     width: fit-content;
@@ -26,12 +26,12 @@ body {
     align-items: center;
     border-radius: 10px;
     flex-direction: column;
-    color: aquamarine;
+    color: white;
     font-size: 1.4em;
 }
 
 #controls button{
-    background-color: aquamarine;
+    background-color: #50c878;
     color: black;
     border: solid 3px cyan;
     border-radius: 10px;
@@ -47,7 +47,7 @@ body {
     background-color: black;
     width: fit-content;
     height: fit-content;
-    color: aquamarine;
+    color: #50c878;
     border: solid 3px cyan;
     padding: 20px;
     margin-top: 20px;
