@@ -45,12 +45,11 @@ body {
 }
 #serverBox {
     background-color: black;
-    width: 200px;
-    height: 100px;
+    width: fit-content;
+    height: fit-content;
     color: aquamarine;
     border: solid 3px cyan;
     padding: 20px;
     margin-top: 20px;
     font-size: 1.4em;
-
 }
