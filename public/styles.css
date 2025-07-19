@@ -50,3 +50,8 @@ body {
     border: solid 2px darkcyan;
     padding: 20px;
 }
+#controlTitle{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
