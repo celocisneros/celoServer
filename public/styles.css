@@ -57,6 +57,7 @@ body {
     border: solid 2px white;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 #radioScreen{
     background-color: black;
