@@ -53,6 +53,8 @@ body {
     width: 250px;
     height: 250px;
     background-color: orange;
+    align-items: center;
+    text-align: center;
 }
 #radioScreen{
     background-color: black;
