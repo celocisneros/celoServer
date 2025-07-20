@@ -65,6 +65,7 @@ body {
     height: 150px;
     margin-bottom: 25%;
     border: solid 2px white;
+    text-align: center;
 }
 #songName{
     color: skyblue;
