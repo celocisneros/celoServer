@@ -6,7 +6,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 #title {
     background-color: #50c878;
     padding: 40px;
@@ -16,7 +15,6 @@ body {
     color: white;
     border-radius: 10px;
 }
-
 #controls{
     background-color: #50c878;
     padding: 60px;
@@ -29,7 +27,6 @@ body {
     color: white;
     font-size: 1.4em;
 }
-
 #controls button{
     background-color: #50c878;
     color: black;
@@ -37,7 +34,6 @@ body {
     border-radius: 10px;
     padding: 10px;
 }
-
 #centerContainer {
   display: flex;
   flex-direction: column;
@@ -52,4 +48,18 @@ body {
     padding: 20px;
     margin-top: 20px;
     font-size: 1.4em;
+}
+#radio{
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+}
+#radioScreen{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 25%;
+}
+#songName{
+    color: violet;
 }
