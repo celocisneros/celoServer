@@ -88,3 +88,6 @@ body {
     text-align: center;
     border-radius: 10px;
 }
+#serverTitle{
+    margin: 0;
+}
