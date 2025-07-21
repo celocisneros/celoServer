@@ -27,6 +27,9 @@ body {
     color: white;
     font-size: 1.4em;
 }
+#controlTitle{
+    margin-top: 5px;
+}
 #controls button{
     background-color: deepskyblue;
     color: black;
