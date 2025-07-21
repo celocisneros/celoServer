@@ -64,8 +64,12 @@ body {
     width: fit-content;
     height: fit-content;
     background-color: lightcyan;
-    padding: 20px;
+    padding: 100px;
     border: solid 3px black;
     padding: 20px;
     z-index: 20;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
