@@ -69,6 +69,13 @@ body {
     text-align: center;
     padding: 10px;
 }
+#radioScreen button{
+    background-color: #50c878;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px deepskyblue;
+    color: white;
+}
 #songName{
     color: greenyellow;
     padding: 5px;
