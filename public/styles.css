@@ -103,6 +103,7 @@ body {
     padding: 20px;
     border: solid 3px black;
     padding: 20px;
+    z-index: 20;
 }
 #settingsContainer button{
     padding: 20px;
