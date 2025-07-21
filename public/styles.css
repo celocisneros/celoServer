@@ -54,20 +54,22 @@ body {
     height: 250px;
     display: flex;
     background-color: deepskyblue;
-    border: solid 2px white;
+    border: solid 5px #50c878;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 1.2em;
+    padding: 10px;
 }
 #radioScreen{
     background-color: black;
     width: fit-content;
     height: fit-content;
     margin-bottom: 25%;
-    border: solid 2px white;
+    border: solid 2px deeppink;
     text-align: center;
     padding: 10px;
+    border-radius: 10px;
 }
 #radioScreen button{
     background-color: #50c878;
