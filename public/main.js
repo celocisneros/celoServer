@@ -6,7 +6,8 @@ function message(){
     })
 }
 function openSettings{
-    document.getElementById('settingsContainer').style.display = 'block';
+const settingsContainer = document.getElementById('settingsContainer');
+settingsContainer.style.display = block;
 }
 function closeSettings{
     document.getElementById('settingsContainer').style.display = 'none';
