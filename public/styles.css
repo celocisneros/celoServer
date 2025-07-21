@@ -36,6 +36,7 @@ body {
     border: solid 3px #50c878;
     border-radius: 10px;
     padding: 20px;
+    font-size: 2em;
 }
 #centerContainer {
   display: flex;
@@ -68,7 +69,7 @@ body {
     width: fit-content;
     height: fit-content;
     margin-bottom: 25%;
-    border: solid 2px deeppink;
+    border: solid 3px #50c878;
     text-align: center;
     padding: 10px;
     border-radius: 10px;
@@ -76,13 +77,14 @@ body {
 #radioScreen button{
     background-color: #50c878;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: solid 1px deepskyblue;
     color: white;
+    font-size: 2em;
 }
 #songName{
     color: #50c878;
-    padding: 5px;
+    padding: 10px;
     margin-top: 10px;
     margin-bottom: 50px;
 }
