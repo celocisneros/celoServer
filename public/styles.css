@@ -1,11 +1,10 @@
 body {
     background-color: skyblue;
     margin: 0;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 1.5em
 }
 #title {
     background-color: #50c878;
