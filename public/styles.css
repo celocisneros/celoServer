@@ -32,7 +32,7 @@ body {
     color: black;
     border: solid 3px cyan;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
 }
 #centerContainer {
   display: flex;
