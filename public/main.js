@@ -5,11 +5,11 @@ function message(){
         document.getElementById('serverMessage').textContent = data.message;
     })
 }
-function openSettings{
+function openSettings(){
 const settingsContainer = document.getElementById('settingsContainer');
 settingsContainer.style.display = "block";
 }
-function closeSettings{
+function closeSettings(){
 const settingsContainer = document.getElementById('settingsContainer');
 settingsContainer.style.display = "none";
 }
