@@ -17,7 +17,7 @@ body {
 }
 #controls{
     background-color: #50c878;
-    padding: 60px;
+    padding: 20px;
     border: solid 3px cyan;
     width: fit-content;
     display: flex;
