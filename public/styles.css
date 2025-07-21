@@ -32,8 +32,8 @@ body {
 }
 #controls button{
     background-color: deepskyblue;
-    color: black;
-    border: solid 3px cyan;
+    color: white;
+    border: solid 3px #50c878;
     border-radius: 10px;
     padding: 20px;
 }
@@ -81,7 +81,7 @@ body {
     color: white;
 }
 #songName{
-    color: greenyellow;
+    color: #50c878;
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 50px;
