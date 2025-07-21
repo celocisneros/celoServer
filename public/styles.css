@@ -15,6 +15,7 @@ body {
     font-style: italic;
     color: white;
     border-radius: 10px;
+    margin-top: 20px;
 }
 #controls{
     background-color: #50c878;
