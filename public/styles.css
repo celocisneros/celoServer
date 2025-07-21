@@ -59,6 +59,18 @@ body {
     margin-top: 10px;
     margin-bottom: 50px;
 }
+#settingsOverlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8); /* semi-transparent black */
+    display: none;
+    justify-content: center;
+    align-content: center;
+    z-index: 19;
+}
 #settingsContainer{
     display: none;
     width: fit-content;
@@ -72,4 +84,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 10px;
 }

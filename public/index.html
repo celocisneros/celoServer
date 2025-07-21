@@ -5,6 +5,7 @@
 </head>
 <body>
 
+<div id="settingsOverlay">
 <div id="settingsContainer">
 <h1>settings</h1>
 <div id="controls">
@@ -15,8 +16,9 @@
     <p id="serverMessage"></p>
 </div>
 </div>
-<button onclick="closeSettings()">Close Settings</button>
+<button onclick="closeSettings(); closeSettingsOverlay();">Close Settings</button>
 </div>
+</div> <!--settingsOverlayEnd-->
 
 <div id="centerContainer">
 
@@ -30,7 +32,7 @@
     </div>
 </div>
 
-<button onclick="openSettings()">open settings menu</button>
+<button onclick="openSettings(); openSettingsOverlay();">open settings menu</button>
 </div>
 
 

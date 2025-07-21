@@ -13,3 +13,11 @@ function closeSettings(){
 const settingsContainer = document.getElementById('settingsContainer');
 settingsContainer.style.display = "none";
 }
+function openSettingsOverlay(){
+    const settingsOverlay = document.getElementById('settingsOverlay');
+    settingsOverlay.style.display = "block";
+}
+function closeSettingsOverlay(){
+    const settingsOverlay = document.getElementById('settingsOverlay');
+    settingsOverlay.style.display = "none";
+}
