@@ -66,6 +66,11 @@ body {
     align-items: center;
     padding: 10px;
 }
+#radioTitle{
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: white;
+}
 #radioScreen{
     background-color: black;
     width: fit-content;
