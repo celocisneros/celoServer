@@ -32,14 +32,6 @@ body {
     font-size: 1.3em;
     font-weight: bolder;
 }
-#controls button{
-    background-color: deepskyblue;
-    color: white;
-    border: solid 3px #50c878;
-    border-radius: 10px;
-    padding: 20px;
-    font-size: 1.1em;
-}
 #centerContainer {
   display: flex;
   flex-direction: column;
@@ -66,11 +58,6 @@ body {
     align-items: center;
     padding: 20px;
 }
-#radioTitle{
-    font-size: 1.3em;
-    font-weight: bolder;
-    color: white;
-}
 #radioScreen{
     background-color: black;
     width: fit-content;
@@ -80,14 +67,6 @@ body {
     text-align: center;
     padding: 40px;
     border-radius: 10px;
-}
-#radioScreen button{
-    background-color: #50c878;
-    padding: 10px;
-    border-radius: 20px;
-    border: solid 1px deepskyblue;
-    color: white;
-    font-size: 1.1em;
 }
 #songName{
     color: #50c878;
@@ -104,13 +83,4 @@ body {
     border: solid 3px black;
     padding: 20px;
     z-index: 20;
-}
-#settingsContainer button{
-    padding: 20px;
-    font-size: 1em;
-    background-color: black;
-    color: white;
-}
-#settingsTitle{
-    color: #50c878;
 }
