@@ -7,8 +7,9 @@ function message(){
 }
 function openSettings{
 const settingsContainer = document.getElementById('settingsContainer');
-settingsContainer.style.display = block;
+settingsContainer.style.display = 'block';
 }
 function closeSettings{
-    document.getElementById('settingsContainer').style.display = 'none';
+const settingsContainer = document.getElementById('settingsContainer');
+settingsContainer.style.display = 'none';
 }
