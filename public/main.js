@@ -5,3 +5,9 @@ function message(){
         document.getElementById('serverMessage').textContent = data.message;
     })
 }
+function openSettings{
+    document.getElementById('settingsContainer').style.display = "block";
+}
+function closeSettings{
+    document.getElementById('settingsContainer').style.display = "none";
+}

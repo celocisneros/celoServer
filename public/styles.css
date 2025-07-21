@@ -95,3 +95,17 @@ body {
     margin-top: 10px;
     margin-bottom: 50px;
 }
+#settingsContainer{
+    display: none;
+    width: fit-content;
+    height: fit-content;
+    background-color: lightcyan;
+    padding: 20px;
+    z-index: 1;
+}
+#settingsContainer button{
+    padding: 20px;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+}
