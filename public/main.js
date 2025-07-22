@@ -21,3 +21,11 @@ function closeSettingsOverlay(){
     const settingsOverlay = document.getElementById('settingsOverlay');
     settingsOverlay.style.display = "none";
 }
+function openRadio(){
+    const radio = document.getElementById('radio');
+    radio.style.display = "flex";
+}
+function closeRadio(){
+    const radio = document.getElementById('radio');
+    radio.style.display = "none";
+}
