@@ -78,7 +78,7 @@ body {
     width: fit-content;
     height: fit-content;
     background-color: lightcyan;
-    padding: 100px;
+    padding: 300px;
     border: solid 3px black;
     padding: 20px;
     z-index: 20;
@@ -91,6 +91,9 @@ body {
 }
 #serverTitle{
     margin-left: 30%;
+    background-color: steelblue;
+    padding: 100px;
+    border-radius: 100px;
 }
 .settingsButton{
     position: absolute;
