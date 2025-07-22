@@ -97,7 +97,7 @@ body {
     top: 10%;
     left: 10%;
     width: 300px;
-    height: 150px;
+    height: fit-content;
     background-color: aquamarine;
     font-weight: bolder;
     color: white;
@@ -107,7 +107,7 @@ body {
 #playRadioButton{
     background-color: aquamarine;
     width: 100px;
-    height: 100px;
+    height: fit-content;
     border-radius: 100px;
     padding: 60px;
     color: white;
