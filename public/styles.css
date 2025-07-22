@@ -92,3 +92,11 @@ body {
 #serverTitle{
     margin-left: 25%;
 }
+#settingsButton{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 300px;
+    height: 150px;
+    background-color: aquamarine;
+}
