@@ -44,6 +44,7 @@ body {
     align-items: center;
     padding: 20px;
     border-radius: 10px;
+    position: relative;
 }
 #radioScreen{
     background-color: black;
@@ -124,8 +125,8 @@ body {
     height: 100px;
     background-color: red;
     border-radius: 100px;
-    position: relative;
-    top: 80%;
-    left: 80%;
+    position: absolute;
+    top: 5%;
+    left: 85%;
 }
 
