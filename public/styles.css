@@ -47,7 +47,7 @@ body {
 }
 #radioScreen{
     background-color: black;
-    width: fit-content;
+    width: 400px;
     height: fit-content;
     margin-bottom: 25%;
     border: solid 3px #50c878;
