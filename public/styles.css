@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    align-text: center;
+    text-align: center;
 }
 #controls{
     background-color: #50c878;
