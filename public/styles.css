@@ -38,7 +38,7 @@ body {
     height: fit-content;
     display: flex;
     background-color: deepskyblue;
-    border: solid 10px goldenrod;
+    border: solid 10px black;
     flex-direction: column;
     justify-content: center;
     align-items: center;
