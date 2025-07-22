@@ -125,7 +125,7 @@ body {
     background-color: red;
     border-radius: 100px;
     position: relative;
-    bottom: 80%;
+    top: 80%;
     left: 80%;
 }
 
