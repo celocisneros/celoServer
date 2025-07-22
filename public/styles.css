@@ -101,7 +101,7 @@ body {
     background-color: aquamarine;
     font-weight: bolder;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 #playRadioButton{
     background-color: aquamarine;
@@ -110,5 +110,5 @@ body {
     border-radius: 100px;
     padding: 10px;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
 }
