@@ -120,10 +120,10 @@ body {
 
 }
 #closeRadioButton{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     background-color: red;
-    border-radius: 50px;
+    border-radius: 100px;
     position: absolute;
     top: 5%;
     left: 80%;
