@@ -10,13 +10,13 @@
 <h2>settings</h2>
 <div id="controls">
     <h2>control panel</h2>
-    <button onclick="message()">test server</button>
+    <button class="settingsButton" onclick="message()">test server</button>
     <div id="serverBox">
     <p>#: </p>
     <p id="serverMessage"></p>
 </div>
 </div>
-<button onclick="closeSettings(); closeSettingsOverlay();">Close Settings</button>
+<button class="settingsButton" onclick="closeSettings(); closeSettingsOverlay();">Close Settings</button>
 </div>
 </div> <!--end of settings overlay-->
 
@@ -34,7 +34,7 @@
 </div>
 </div> <!--end of center container-->
 
-<button id="settingsButton" onclick="openSettings(); openSettingsOverlay();">open settings menu</button>
+<button class="settingsButton" onclick="openSettings(); openSettingsOverlay();">open settings menu</button>
 
 
 <script src="main.js"></script>
