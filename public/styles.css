@@ -34,15 +34,16 @@ body {
     font-size: 0.8em;
 }
 #radio{
-    width: fit-content;
+    width: 500px;
     height: fit-content;
     display: flex;
     background-color: deepskyblue;
-    border: solid 10px black;
+    border: solid 5px black;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    border-radius: 10px;
 }
 #radioScreen{
     background-color: black;
