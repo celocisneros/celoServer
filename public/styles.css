@@ -92,8 +92,9 @@ body {
 #serverTitle{
     margin-left: 20%;
     background-color: steelblue;
-    padding: 50px;
-    border-radius: 100px;
+    padding: 30px;
+    border-radius: 30px;
+    width: fit-content;
 }
 .settingsButton{
     position: absolute;
