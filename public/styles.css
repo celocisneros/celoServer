@@ -128,4 +128,8 @@ body {
     top: 5%;
     left: 75%;
 }
-
+#settingsTitle{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
