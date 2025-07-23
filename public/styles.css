@@ -121,12 +121,12 @@ body {
     margin-bottom: 40px;
 }
 #closeRadioButton{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background-color: red;
     border-radius: 100px;
     position: absolute;
-    top: 3%;
+    top: 2%;
     left: 85%;
 }
 #settingsTitle{
