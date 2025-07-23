@@ -5,37 +5,6 @@
 </head>
 <body>
 
-<div id="settingsOverlay">
-<div id="settingsContainer">
-<h2 id="settingsTitle">settings</h2>
-<div id="controls">
-    <h2>control panel</h2>
-    <button class="settingsButton" onclick="message()">test server</button>
-    <div id="serverBox">
-    <p>#: </p>
-    <p id="serverMessage"></p>
-</div>
-</div> <!--end of controls div-->
-<button id="closeSettingsButton" class="settingsButton" onclick="closeSettings(); closeSettingsOverlay(); playCloseSound();">Close Settings</button>
-</div> <!--end of settings container-->
-</div> <!--end of settings overlay-->
-
-<div id="centerContainer">
-<h2 id="serverTitle">celo server</h2>
-<button class="settingsButton" onclick="openSettings(); openSettingsOverlay(); playOpenSound();">open settings menu</button>
-<button class="settingsButton" onclick="openRadio(); playOpenSound();">open radio</button>
-
-<div id="radio">
-<h2>radio</h2>
-    <div id="radioScreen">
-        <p id="songName">now playing</p>
-    </div> <!--end of radio screen-->
-<button id="playRadioButton">play</button>
-<button onclick="closeRadio(); playCloseSound();" id="closeRadioButton"></button>
-</div>
-</div> <!--end of center container-->
-
-
 
 
 <script src="main.js"></script>
