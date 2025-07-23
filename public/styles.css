@@ -130,6 +130,7 @@ body {
 }
 #settingsTitle{
     position: absolute;
-    top: 3%;
+    top: 1%;
     left: 38%;
+    margin-bottom: 10px;
 }
