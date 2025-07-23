@@ -29,3 +29,11 @@ function closeRadio(){
     const radio = document.getElementById('radio');
     radio.style.display = "none";
 }
+function playOpenSound(){
+    const openSound = new Audio('open.mp3');
+    openSound.play();
+}
+function playCloseSound(){
+    const closeSound = new Audio('close.mp3');
+    closeSound.play();
+}

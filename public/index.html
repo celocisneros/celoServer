@@ -16,14 +16,14 @@
     <p id="serverMessage"></p>
 </div>
 </div> <!--end of controls div-->
-<button id="closeSettingsButton" class="settingsButton" onclick="closeSettings(); closeSettingsOverlay();">Close Settings</button>
+<button id="closeSettingsButton" class="settingsButton" onclick="closeSettings(); closeSettingsOverlay(); playCloseSound();">Close Settings</button>
 </div> <!--end of settings container-->
 </div> <!--end of settings overlay-->
 
 <div id="centerContainer">
 <h2 id="serverTitle">celo server</h2>
-<button class="settingsButton" onclick="openSettings(); openSettingsOverlay();">open settings menu</button>
-<button class="settingsButton" onclick="openRadio()">open radio</button>
+<button class="settingsButton" onclick="openSettings(); openSettingsOverlay(); playOpenSound();">open settings menu</button>
+<button class="settingsButton" onclick="openRadio(); playOpenSound();">open radio</button>
 
 <div id="radio">
 <h2>radio</h2>
@@ -31,7 +31,7 @@
         <p id="songName">now playing</p>
     </div> <!--end of radio screen-->
 <button id="playRadioButton">play</button>
-<button onclick="closeRadio()" id="closeRadioButton"></button>
+<button onclick="closeRadio(); playCloseSound();" id="closeRadioButton"></button>
 </div>
 </div> <!--end of center container-->
 
