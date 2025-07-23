@@ -30,10 +30,10 @@ function closeRadio(){
     radio.style.display = "none";
 }
 function playOpenSound(){
-    const openSound = new Audio('open.mp3');
+    const openSound = new Audio('/home/azureuser/celoServer/open.mp3');
     openSound.play();
 }
 function playCloseSound(){
-    const closeSound = new Audio('close.mp3');
+    const closeSound = new Audio('/home/azureuser/celoServer/close.mp3');
     closeSound.play();
 }
