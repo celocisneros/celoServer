@@ -5,3 +5,7 @@ body{
     align-items: center;
     text-align: center;
 }
+#logInForm{
+    display: flex;
+    flex-direction: column;
+}
