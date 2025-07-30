@@ -4,7 +4,7 @@ body{
     align-content: center;
     align-items: center;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 #log{
     padding: 50px;
@@ -18,7 +18,7 @@ body{
 }
 #centerFlow{
     position: absolute;
-    left: 40%;
+    left: 30%;
     top: 20%;
     gap: 100px;
     background-color: silver;
