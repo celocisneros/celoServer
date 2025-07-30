@@ -6,9 +6,7 @@ body{
     text-align: center;
 }
 #log{
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    padding: 20px;
+    padding: 50px;
     border: solid 2px white;
+    background-color: aquamarine;
 }
