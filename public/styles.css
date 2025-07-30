@@ -18,7 +18,10 @@ body{
 #centerFlow{
     position: absolute;
     left: 40%;
-    top: 30%;
-    gap: 50px;
-    background-color: bisque;
+    top: 20%;
+    gap: 100px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px black;
+
 }
