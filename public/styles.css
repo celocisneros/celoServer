@@ -7,6 +7,11 @@ body{
 }
 #log{
     padding: 50px;
-    border: solid 2px white;
+    border: solid 2px gold;
     background-color: aquamarine;
+}
+#welcomeMessage{
+    background-color: aquamarine;
+    padding: 25px;
+    border: solid 2px gold;
 }
