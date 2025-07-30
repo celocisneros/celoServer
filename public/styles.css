@@ -22,6 +22,7 @@ body{
     gap: 100px;
     background-color: white;
     border-radius: 10px;
-    border: solid 1px black;
-
+    border: solid 2px black;
+    
+    padding: 50px;
 }
