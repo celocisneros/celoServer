@@ -7,20 +7,20 @@ body{
 }
 #log{
     padding: 50px;
-    border: solid 2px gold;
+    border: solid 2px silver;
     background-color: aquamarine;
 }
 #welcomeMessage{
     background-color: aquamarine;
     padding: 25px;
-    border: solid 2px gold;
+    border: solid 2px silver;
 }
 #centerFlow{
     position: absolute;
     left: 40%;
     top: 20%;
     gap: 100px;
-    background-color: gold;
+    background-color: silver;
     border-radius: 10px;
     border: solid 2px aquamarine;
     padding: 50px;
