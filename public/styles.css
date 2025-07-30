@@ -20,8 +20,8 @@ body{
     left: 40%;
     top: 20%;
     gap: 100px;
-    background-color: black;
+    background-color: gold;
     border-radius: 10px;
-    border: solid 2px black;
+    border: solid 2px aquamarine;
     padding: 50px;
 }
