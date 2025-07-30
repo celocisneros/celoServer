@@ -5,12 +5,3 @@ body{
     align-items: center;
     text-align: center;
 }
-form{
-    background-color: grey;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    font-size: 2em;
-    border: solid 2px white;
-}
