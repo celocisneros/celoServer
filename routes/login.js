@@ -11,7 +11,7 @@ router.post('/', (req, res) => {
 
   if (username === dummyUser.username && password === dummyUser.password) {
     res.send('Login successful!');
-    res.redirect('/home/azureuser/celoServer/public/profile.html');
+    res.redirect('/profile.html');
   } else {
     res.status(401).send('Invalid credentials.');
   }
