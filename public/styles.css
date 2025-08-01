@@ -6,16 +6,6 @@ body{
     text-align: center;
     font-size: 1.5em;
 }
-#log{
-    padding: 50px;
-    border: solid 2px silver;
-    background-color: aquamarine;
-}
-#welcomeMessage{
-    background-color: aquamarine;
-    padding: 25px;
-    border: solid 2px silver;
-}
 #centerFlow{
     position: absolute;
     left: 30%;
@@ -25,4 +15,14 @@ body{
     border-radius: 10px;
     border: solid 2px aquamarine;
     padding: 25px;
+}
+#logInBox{
+    padding: 50px;
+    border: solid 2px silver;
+    background-color: aquamarine;
+}
+#welcomeMessage{
+    background-color: aquamarine;
+    padding: 25px;
+    border: solid 2px silver;
 }
