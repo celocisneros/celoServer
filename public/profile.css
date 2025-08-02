@@ -17,3 +17,9 @@ body{
     font-size: 4em;
     padding: 25px;
 }
+#nav a{
+    color: white;
+}
+#nav a:hover{
+    color: skyblue;
+}
