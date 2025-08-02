@@ -6,16 +6,13 @@ body{
     text-align: center;
     justify-content: center;
     font-size: 2em;
+    margin: 0;
 }
 #centerFlowContainer{
-    position: absolute;
-    left: 20%;
-    top: 10%;
-    gap: 100px;
     background-color: silver;
-    border-radius: 10px;
-    border: solid 2px aquamarine;
-    padding: 25px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
 }
 #logInBox{
     padding: 50px;
