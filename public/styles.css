@@ -30,7 +30,8 @@ body{
     margin-top: 60px;
     font-size: 1.3em;
     background-color: skyblue;
-    color: aquamarine;
+    color: white;
+    padding: 10px;
 }
 .logInInput{
     padding: 10px;
