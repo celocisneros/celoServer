@@ -10,7 +10,7 @@ body{
     top: 5%;
     width: 100vw;
     height: fit-content;
-    display: flex;
+    display: none;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
