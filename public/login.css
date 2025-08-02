@@ -8,8 +8,8 @@ body{
 }
 #centerFlowContainer{
     position: absolute;
-    left: 30%;
-    top: 20%;
+    left: 28%;
+    top: 10%;
     gap: 100px;
     background-color: silver;
     border-radius: 10px;
