@@ -1,10 +1,12 @@
 const express = require('express');
 const path = require('path');
 const app = express();
+const session = require('./sessionConfig'); // ← import from other file
 
 // Middleware to parse form data
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(session); // ← apply the middleware here
 
 // ✅ Serve static files first
 app.use(express.static(path.join(__dirname, 'public')));
@@ -12,6 +14,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 // ✅ Default route (if someone visits '/')
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
+// Dashboard route
+app.get('/dashboard', (req, res) => {
+  const user = req.session.username;
+  if (!user) return res.redirect('/');
+  res.send(`<h1>Welcome, ${user}!</h1><a href="/logout">Logout</a>`);
 });
 
 // Import and use login route
