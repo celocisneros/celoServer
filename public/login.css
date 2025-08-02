@@ -23,7 +23,7 @@ body{
     background-color: aquamarine;
     border-radius: 10px;
     position: relative;
-    left: 50%;
+    left: 40%;
 }
 #welcomeMessage{
     background-color: aquamarine;
@@ -31,7 +31,7 @@ body{
     border: solid 2px silver;
     width: fit-content;
     position: relative;
-    left: 50%;
+    left: 40%;
 }
 #logInBox button{
     margin-top: 60px;
