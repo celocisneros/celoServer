@@ -13,6 +13,8 @@ body{
     width: 100vw;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 5%;
 }
 #logInBox{
     padding: 50px;
@@ -20,11 +22,16 @@ body{
     border: solid 2px silver;
     background-color: aquamarine;
     border-radius: 10px;
+    position: relative;
+    left: 50%;
 }
 #welcomeMessage{
     background-color: aquamarine;
     padding: 25px;
     border: solid 2px silver;
+    width: fit-content;
+    position: relative;
+    left: 50%;
 }
 #logInBox button{
     margin-top: 60px;
