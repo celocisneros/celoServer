@@ -11,8 +11,6 @@ body{
 #centerFlowContainer{
     background-color: silver;
     width: 100vw;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     top: 5%;
 }
