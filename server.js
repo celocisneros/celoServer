@@ -23,6 +23,15 @@ app.get('/dashboard', (req, res) => {
   res.send(`<h1>Welcome, ${user}!</h1><a href="/logout">Logout</a>`);
 });
 
+app.get('/api/user', (req, res) => {
+  if (req.session && req.session.username) {
+    res.json({ username: req.session.username });
+  } else {
+    res.json({ username: null });
+  }
+});
+
+
 // Import and use login route
 const loginRoute = require('./routes/login');
 app.use('/login', loginRoute);
