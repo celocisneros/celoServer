@@ -10,7 +10,7 @@ router.post('/', (req, res) => {
   const { username, password } = req.body;
 
   if (username === dummyUser.username && password === dummyUser.password) {
-    res.redirect('/profile.html');
+    res.redirect('/dashboard.html');
   } else {
     res.status(401).send('Invalid credentials.');
   }
