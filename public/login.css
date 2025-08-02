@@ -16,8 +16,10 @@ body{
 }
 #logInBox{
     padding: 50px;
+    width: fit-content;
     border: solid 2px silver;
     background-color: aquamarine;
+    border-radius: 10px;
 }
 #welcomeMessage{
     background-color: aquamarine;
