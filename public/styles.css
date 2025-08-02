@@ -28,7 +28,9 @@ body{
 }
 #logInBox button{
     margin-top: 60px;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    background-color: skyblue;
+    color: aquamarine;
 }
 .logInInput{
     padding: 10px;
