@@ -10,7 +10,7 @@ body{
     top: 5%;
     width: 100vw;
     height: fit-content;
-    display: none;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -22,4 +22,8 @@ body{
 }
 #nav a:hover{
     color: skyblue;
+}
+#welcome-msg{
+    position: absolute;
+    top: 1%;
 }
