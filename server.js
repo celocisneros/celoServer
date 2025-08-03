@@ -23,6 +23,7 @@ app.get('/dashboard', (req, res) => {
   res.send(`<h1>Welcome, ${user}!</h1><a href="/logout">Logout</a>`);
 });
 
+//api user route, grabs username from current session
 app.get('/api/user', (req, res) => {
   if (req.session && req.session.username) {
     res.json({ username: req.session.username });
