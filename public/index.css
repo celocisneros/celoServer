@@ -30,5 +30,8 @@ body{
     border: solid 1px white;
     font-family: 'font2';
     font-size: 1.3em;
-
+}
+#title{
+    color: darkred;
+    font-weight: 100;
 }
