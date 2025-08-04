@@ -15,10 +15,10 @@ body{
 }
 #profileContainer{
     border: solid 2px silver;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     width: fit-content;
-    padding: 20px;
+    padding: 40px;
     gap: 20px;
     background-color: darkred;
     color: silver;
@@ -26,6 +26,6 @@ body{
 h1{
 background-color: darkred;
 color: silver;
-padding: 20px;
-border-radius: 10px;
+padding: 10px;
+border-radius: 5px;
 }
