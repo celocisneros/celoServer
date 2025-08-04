@@ -16,7 +16,7 @@ body{
 #profileContainer{
     border: solid 2px darkred;
     border-radius: 5px;
-    text-align: center;
+    text-align: left;
     width: fit-content;
     padding: 30px;
     gap: 20px;
