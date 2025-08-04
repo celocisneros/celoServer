@@ -5,6 +5,7 @@ body{
     font-size: 1.3em;
     font-family: 'font2';
     margin-top: 40px;
+    align-items: center;
 }
 @font-face {
     font-family: 'font2';
@@ -17,9 +18,6 @@ body{
     padding: 20px;
     background-color: red;
     border: solid 1px white;
-    position: absolute;
-    top: 33%;
-    left: 40%;
     font-size: 1.3em;
 }
 #welcome button{
