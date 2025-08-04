@@ -18,7 +18,7 @@ body{
     border-radius: 5px;
     text-align: left;
     width: fit-content;
-    padding: 30px;
+    padding: 35px;
     gap: 20px;
     background-color: darkred;
     color: silver;
@@ -35,5 +35,5 @@ border-radius: 5px;
     height: 200px;
     background-color: silver;
     border-radius: 90px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
