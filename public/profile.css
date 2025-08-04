@@ -14,14 +14,14 @@ body{
     font-family: 'font2';
 }
 #profileContainer{
-    border: solid 2px white;
+    border: solid 2px silver;
     border-radius: 10px;
     text-align: center;
     width: fit-content;
     padding: 20px;
     gap: 20px;
     background-color: darkred;
-    color: white;
+    color: silver;
 }
 h1{
 background-color: darkred;
