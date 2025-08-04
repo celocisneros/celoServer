@@ -19,6 +19,7 @@ body{
     background-color: red;
     border: solid 1px white;
     font-size: 1.3em;
+    max-width: fit-content;
 }
 #welcome button{
     background-color: black;
@@ -28,6 +29,7 @@ body{
     border: solid 1px white;
     font-family: 'font2';
     font-size: 1.3em;
+    align-items: center;
 }
 #title{
     color: darkred;
