@@ -23,3 +23,10 @@ body{
     gap: 10px;
     width: fit-content;
 }
+#registerForm button{
+    background-color: rgb(0, 255, 204);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
