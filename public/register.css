@@ -10,7 +10,8 @@ body{
     justify-content: center;
     text-align: center;
     font-family: 'font2';
-    margin-top: 10%;
+    margin-top: 5%;
+    font-size: 1.3em;
 }
 #registerForm{
     background-color: black;
