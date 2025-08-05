@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'font2';
+    src: url('font2.ttf');
+}
 body{
     display: flex;
     flex-direction: column;
@@ -5,10 +9,11 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-family: 'font2';
 }
 #registerForm{
     background-color: black;
-    color: white;
+    color: rgb(0, 255, 204);
     padding: 10px;
     text-align: center;
     display: flex;
