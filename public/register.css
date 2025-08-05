@@ -33,3 +33,7 @@ body{
     margin-top: 20px;
     width: fit-content;
 }
+.hint{
+    color: white;
+    font-size: 0.8em;
+}
