@@ -14,7 +14,7 @@ body{
     font-family: 'font2';
 }
 #profileContainer{
-    border: solid 2px background-color: rgb(0, 255, 204); /* Cyan greenish blue */;
+    border: solid 2px background-color: rgb(73, 255, 204); /* Cyan greenish blue */;
     border-radius: 5px;
     text-align: left;
     width: fit-content;
@@ -25,7 +25,7 @@ body{
     background-color: black;
 }
 h1{
-background-color: background-color: rgb(0, 255, 204); /* Cyan greenish blue */;
+background-color: background-color: rgb(73, 255, 204); /* Cyan greenish blue */;
 color: silver;
 padding: 10px;
 border-radius: 5px;
@@ -33,7 +33,7 @@ border-radius: 5px;
 #fakeProfilePic{
     width: 200px;
     height: 200px;
-    background-color: background-color: rgb(0, 255, 204); /* Cyan greenish blue */;
+    background-color: background-color: rgb(73, 255, 204); /* Cyan greenish blue */;
     border-radius: 90px;
     margin-bottom: 50px;
 }
