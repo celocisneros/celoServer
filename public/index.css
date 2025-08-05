@@ -36,6 +36,7 @@ body{
     align-items: center;
 }
 #title{
-    color: rgb(0, 255, 204);
+    color: black;
+    background-color: rgb(0, 255, 204);
     font-weight: 100;
 }
