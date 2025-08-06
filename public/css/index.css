@@ -13,10 +13,10 @@ body{
 }
 @keyframes glowBackground {
   0%, 100% {
-    background-color: rgba(238, 130, 238, 0.532);
+    background-color: rgb(132, 65, 132);
   }
   50% {
-    background-color: rgba(0, 255, 204, 0.477); /* slightly transparent to give glowing effect */
+    background-color: #00846afd;
   }
 }
 @font-face {
