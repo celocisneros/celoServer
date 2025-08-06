@@ -35,11 +35,12 @@ body{
     width: fit-content;
     font-weight: bolder;
 }
-#title{
+#h1{
     background-color: black;
     color: rgb(0, 255, 204);
     padding: 20px;
     border-radius: 10px;
+    width: fit-content;
 }
 .hint{
     color: white;
