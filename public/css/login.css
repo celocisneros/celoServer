@@ -43,3 +43,12 @@ h1{
     width: fit-content;
     display: flex;
 }
+button{
+    font-family: 'font2';
+    background-color: darkslategray;
+    color: rgb(0, 255, 204);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: solid 2px white;
+}
