@@ -9,7 +9,7 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    animation: glowBackground 60s ease-in-out infinite;
+    animation: glowBackground 70s ease-in-out infinite;
 }
 @keyframes glowBackground {
   0%, 100% {
