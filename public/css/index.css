@@ -12,7 +12,7 @@ body{
 }
 @font-face {
     font-family: 'font2';
-    src: url('celocisneros/celoServer/public/font2.ttf');
+    src: url('../font2.ttf');
 }
 #welcome{
     display: flex;
