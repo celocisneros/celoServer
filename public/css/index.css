@@ -33,7 +33,7 @@ body{
     font-size: 1.3em;
     max-width: fit-content;
     margin-top: 50px;
-    animation: glowBackground 60s ease-in-out infinite;
+    animation: glowBackground 30s ease-in-out infinite;
     border-radius: 10px;
 
 }
@@ -52,6 +52,6 @@ body{
     background-color: rgb(0, 255, 204);
     font-weight: 100;
     padding: 10px;
-    animation: glowBackground 60s ease-in-out infinite;
+    animation: glowBackground 30s ease-in-out infinite;
     border-radius: 10px;
 }
