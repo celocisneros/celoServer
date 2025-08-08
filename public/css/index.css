@@ -1,5 +1,4 @@
 body{
-    background-color: rgb(0, 255, 204);
     color: white;
     text-align: center;
     font-size: 1.3em;
@@ -13,10 +12,10 @@ body{
 }
 @keyframes glowBackground {
   0%, 100% {
-    background-color: rgb(132, 65, 132);
+    background-color: rgb(129, 65, 64);
   }
   50% {
-    background-color: #00846afd;
+    background-color: #737f7bfd;
   }
 }
 @font-face {
