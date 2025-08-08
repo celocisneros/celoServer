@@ -12,10 +12,10 @@ body{
 }
 @keyframes glowBackground {
   0%, 100% {
-    background-color: rgb(129, 65, 64);
+    background-color: rgb(156, 104, 149);
   }
   50% {
-    background-color: #737f7bfd;
+    background-color: #545756fd;
   }
 }
 @font-face {
