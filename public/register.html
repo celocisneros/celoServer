@@ -19,5 +19,38 @@
 
 <button onclick="window.location.href='index.html'">home</button>
 
+<script>
+  const form = document.getElementById('registerForm');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault(); // Stop page from reloading
+
+    const formData = {
+      username: form.username.value,
+      email: form.email.value,
+      password: form.password.value
+    };
+
+    try {
+      const response = await fetch('/api/register', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      });
+
+      const data = await response.json();
+
+      alert(data.message); // Show backend message
+
+      if (response.ok) {
+        form.reset(); // Clear the form on success
+      }
+    } catch (err) {
+      alert('Error submitting registration');
+      console.error(err);
+    }
+  });
+</script>
+
 </body>
 </html>
