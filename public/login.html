@@ -16,6 +16,34 @@
 
 <button onclick="window.location.href='index.html'">home</button>
 
+<script>
+    document.getElementById('loginForm').addEventListener('submit', async (event) => {
+    event.preventDefault(); // 🚫 Stops the page reload
+
+    const username = document.getElementById('username').value.trim();
+    const password = document.getElementById('password').value.trim();
+
+    try {
+        const res = await fetch('/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ username, password })
+        });
+
+        const data = await res.json();
+
+        if (res.ok) {
+            console.log("✅ Login successful!");
+            window.location.href = '/profile.html'; // Redirect
+        } else {
+            alert(data.message || "❌ Login failed.");
+        }
+    } catch (err) {
+        console.error("Error logging in:", err);
+        alert("⚠ Something went wrong. Please try again.");
+    }
+});
+</script>
 
 </body>
 </html>
