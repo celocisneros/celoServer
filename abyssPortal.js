@@ -9,6 +9,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 const authRoutes = require('./routes/auth');
 app.use('/api', authRoutes);
 
+// Use login route
+app.use('/', loginRoute);
+
 app.get('/api/test', (req, res) => {
   res.send('API is working!');
 });
