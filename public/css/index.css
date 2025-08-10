@@ -38,8 +38,7 @@ body{
     align-items: center;
 }
 #title{
-    color: white;
-    background-color: rgb(0, 255, 204);
+    color: rgb(0, 255, 204);
     font-weight: 100;
     padding: 10px;
     animation: glowBackground 20s ease-in-out infinite;
