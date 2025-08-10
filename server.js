@@ -18,21 +18,21 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Connect to MongoDB on localhost, using database 'abyssportal'
 mongoose.connect('mongodb://localhost:27017/abyssportal', {
-  useNewUrlParser: true,        // Use new URL parser (recommended)
-  useUnifiedTopology: true      // Use new server engine for MongoDB connections
+  useNewUrlParser: true,
+  useUnifiedTopology: true
 })
-.then(() => console.log('MongoDB connected'))       // If successful, log this
-.catch(err => console.error('MongoDB error:', err)); // If there's an error, log it
+.then(() => console.log('MongoDB connected'))
+.catch(err => console.error('MongoDB error:', err));
 
-// Import routes
+// Import the authentication routes
 const authRoutes = require('./routes/auth');
 
-// Use routes with /api prefix
+// Use the authentication routes under the /api path
 app.use('/api', authRoutes);
 
 // Test route to make sure the API is working
 app.get('/api/test', (req, res) => {
-  res.send('API is working!'); // Responds with text when someone visits /api/test
+  res.send('API is working!');
 });
 
 // Set the port to 3000
