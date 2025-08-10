@@ -1,11 +1,17 @@
-const mongoose = require('mongoose');
+const db = require('../db');
 
-// Define the schema (structure) for a user
-const userSchema = new mongoose.Schema({
-  username: { type: String, required: true, unique: true },
-  email:    { type: String, required: true, unique: true },
-  password: { type: String, required: true }
-});
+function createUser({ username, email, password }, callback) {
+  const sql = `INSERT INTO users (username, email, password) VALUES (?, ?, ?)`;
+  db.run(sql, [username, email, password], function(err) {
+    callback(err, this.lastID);
+  });
+}
 
-// Create and export the model
-module.exports = mongoose.model('User', userSchema);
+function findUserByUsernameOrEmail(username, email, callback) {
+  const sql = `SELECT * FROM users WHERE username = ? OR email = ?`;
+  db.get(sql, [username, email], (err, row) => {
+    callback(err, row);
+  });
+}
+
+module.exports = { createUser, findUserByUsernameOrEmail };
