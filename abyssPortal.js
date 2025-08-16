@@ -4,6 +4,12 @@ const loginRoute = require('./routes/login'); // import it here
 
 const app = express();
 
+// Parse form submissions
+app.use(express.urlencoded({ extended: true }));
+
+// Parse JSON bodies
+app.use(express.json());
+
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
