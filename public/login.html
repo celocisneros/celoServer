@@ -1,21 +1,21 @@
 <html>
 <head>
-<link rel="stylesheet" href="/css/login.css">
+  <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
-<h1>Login</h1>
+  <h1>Login</h1>
 
-<!--login form-->
-<form action="/login" method="post" id="loginForm"> 
-<p>Please enter your Username:</p>
-<input type="text" name="username" required />
-<p>Please enter your Password:</p>
-<input type="text" name="password" required />
-<button type="submit">Login</button>
-</form>
+  <!-- Login form -->
+  <form action="/login" method="post" id="loginForm"> 
+    <p>Please enter your Username:</p>
+    <input type="text" name="username" required />
 
-<button onclick="window.location.href='index.html'">home</button>
+    <p>Please enter your Password:</p>
+    <input type="password" name="password" required />
 
+    <button type="submit">Login</button>
+  </form>
 
+  <button onclick="window.location.href='index.html'">home</button>
 </body>
 </html>
