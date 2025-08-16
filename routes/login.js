@@ -7,6 +7,11 @@ const router = express.Router();
 router.post('/login', async (req, res) => {
     const { username, password } = req.body;
 
+    router.post("/", (req, res) => {
+  console.log("BODY:", req.body);   // should show { username: "...", password: "..." }
+  res.send("check console");
+});
+
     // Check if user exists
     db.get(`SELECT * FROM users WHERE username = ?`, [username], async (err, user) => {
         if (err) {
